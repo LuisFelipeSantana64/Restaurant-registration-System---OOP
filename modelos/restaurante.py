@@ -23,7 +23,7 @@ class Restaurante:
             print(f"O restaurante'\033[92m{self.__nome}\033[0m'foi ativado com sucesso!!")
         else:
             try:
-                decisao = int(input(f"'{self.__nome}' ja está ativado, deseja desativar? (1 para sim):"))
+                decisao = int(input(f"'{self.__nome}' já está ativado, deseja desativar? (1 para sim):"))
                 if decisao == 1:
                     self.__ativo = not self.__ativo
                     print(f"\nO restaurante '{self.__nome}' foi desativado com sucesso!!")
