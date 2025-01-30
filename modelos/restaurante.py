@@ -28,7 +28,7 @@ class Restaurante:
                     self.__ativo = not self.__ativo
                     print(f"\nO restaurante '{self.__nome}' foi desativado com sucesso!!")
                 else:
-                    print("\nNão houve mudança!")
+                    print("\nNão houve mudança!!")
             except: 
                 print("\nNão houve mudança!")
 
