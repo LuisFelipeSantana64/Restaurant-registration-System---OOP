@@ -30,7 +30,7 @@ class Restaurante:
                 else:
                     print("\nNão houve mudança!")
             except: 
-                print("\nNão houve mudança!")
+                print("\nNão houve mudança!!")
 
         
     @property #getter
