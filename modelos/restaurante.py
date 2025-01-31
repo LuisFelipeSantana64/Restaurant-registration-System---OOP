@@ -52,27 +52,13 @@ class Restaurante:
     def avaliar_restaurante(self, cliente, nota):
         avaliacao = Avaliacao(cliente, nota)
         self.__avaliacao.append(avaliacao)
-
-<<<<<<< HEAD
+        
     @property
     def media_avaliacao(self):
         if not self.__avaliacao:
             return 0
         soma = sum(avaliacao.nota for avaliacao in self.__avaliacao)
         return round(soma / (len(self.__avaliacao)), 1)
- 
-=======
         
-    @property #getter
-    def ativo(self): 
-        return '☑'if self.__ativo else '☐' 
-
-restaurante1 = Restaurante('Praçao', 'Gourmet')
-
-Restaurante.listar_restaurantes()
-restaurante1.alterar_estado()
-Restaurante.listar_restaurantes()
 
 
-
->>>>>>> bc35cee (Trocando o nome do Restaurante teste)
