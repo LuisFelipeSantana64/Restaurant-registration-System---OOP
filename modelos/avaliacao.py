@@ -1,7 +1,7 @@
 class Avaliacao:
     def __init__(self, cliente, nota):
         self.__cliente = cliente
-        self.nota = nota
+        self.__nota = nota
 
 @property #getter 
 def cliente(self):
