@@ -6,7 +6,7 @@ class Restaurante:
     def __init__(self, nome, categoria):
         self.__nome = nome.title()
         self.__categoria = categoria.title()
-        self.__avaliacao = []
+        self.__avaliacao = [] 
         self.__ativo = False
         Restaurante.restaurantes.append(self)
     
@@ -17,7 +17,7 @@ class Restaurante:
             print(f'{restaurante.__nome.ljust(25)} | {restaurante.__categoria.ljust(25)} | {str(restaurante.media_avaliacao).ljust(25)} | {restaurante.ativo}') #posso acessar com '__' porque está dentro da classe
 
     def __str__(self):
-        return f'\n{self.__nome} | {self.__categoria} | {self.ativo}' #posso acessar com '__' porque está dentro da classe
+        return f'\n{self.__nome} | {self.__categoria} | {str(self.media_avaliacao)} | {self.ativo}' #posso acessar com '__' porque está dentro da classe
 
         
     @property #getter ativo
@@ -55,7 +55,7 @@ class Restaurante:
         
     @property
     def media_avaliacao(self):
-        if not self.__avaliacao:
+        if not self.__avaliacao: #se não houver avaliações
             return 0
         soma = sum(avaliacao.nota for avaliacao in self.__avaliacao)
         return round(soma / (len(self.__avaliacao)), 1)

@@ -13,6 +13,7 @@ def main():
     print(restaurante1.nome) #usando getter
     restaurante1.alterar_estado()
     Restaurante.listar_restaurantes()
+    print(restaurante1) #usando __str__
     
 
 if __name__ == '__main__':
