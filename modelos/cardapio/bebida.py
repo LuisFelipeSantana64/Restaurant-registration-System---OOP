@@ -1,9 +1,10 @@
 from modelos.cardapio.item_cardapio import ItemCardapio
 
-class Bebida(ItemCardapio):
+class Bebida(ItemCardapio): #herdando
     def __init__(self, nome, preco, tamanho):
         super().__init__(nome, preco)
         self.__tamanho = tamanho
 
     def __str__(self):
-        return self.nome
+        return self.nome #acesso por meio do getter da classe pai
+    

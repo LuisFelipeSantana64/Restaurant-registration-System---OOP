@@ -34,16 +34,15 @@ class Restaurante:
 
     
     def alterar_estado(self):
-        print(f"\033[1;34m \n\tALTERANDO STATUS\033[0m")
         if self.__ativo == False:
             self.__ativo = not self.__ativo
             print(f"O restaurante'\033[92m{self.__nome}\033[0m'foi ativado com sucesso!!\n")
         else:
             try:
-                decisao = int(input(f"'{self.__nome}' já está ativado, deseja desativar? (1 para SIM):"))
+                decisao = int(input(f"'\033[92m{self.__nome}\033[0m' já está ativado, deseja desativar? (1 para SIM):"))
                 if decisao == 1:
                     self.__ativo = not self.__ativo
-                    print(f"\nO restaurante '{self.__nome}' foi desativado com sucesso!!\n")
+                    print(f"\nO restaurante '\033[92m{self.__nome}\033[0m' foi desativado com sucesso!!\n")
                 else:
                     print("\nNão houve mudança!!")
             except: 
