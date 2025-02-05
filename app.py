@@ -8,6 +8,8 @@ restaurante1.avaliar_restaurante('Felipe', 9)
 restaurante1.avaliar_restaurante('Igor', 4)
 bebida1 = Bebida('Suco de Melancia', 5.0,'grande')
 prato1 = Prato('Paozinho',2.00,'O melhor pão da cidade')
+restaurante1.adicionar_no_cardapio(bebida1)
+restaurante1.adicionar_no_cardapio(prato1)
 
 
 def main():
@@ -23,6 +25,10 @@ def main():
     print(restaurante1) #usando __str__
     print(prato1) #usando __str__
     print(bebida1) #usando __str__
+    restaurante1.exibir_cardapio
+    prato1.aplicar_desconto()
+    bebida1.aplicar_desconto()
+    restaurante1.exibir_cardapio
 
 if __name__ == '__main__':
     main()
