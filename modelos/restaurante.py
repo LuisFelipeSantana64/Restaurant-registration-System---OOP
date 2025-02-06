@@ -64,7 +64,7 @@ class Restaurante:
     def adicionar_no_cardapio(self, item):
         if isinstance(item, ItemCardapio):
             self.__cardapio.append(item)
-         
+        
     @property     
     def exibir_cardapio(self):
         print(f"\n\t\033[33mCardápio do restaurante {self.__nome}\033[0m")

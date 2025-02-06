@@ -6,8 +6,8 @@ from modelos.cardapio.prato import Prato
 restaurante1 = Restaurante('Praça', 'Gourmet')
 restaurante1.avaliar_restaurante('Felipe', 9)
 restaurante1.avaliar_restaurante('Igor', 4)
-bebida1 = Bebida('Suco de Melancia', 5.0,'grande')
-prato1 = Prato('Paozinho',2.00,'O melhor pão da cidade')
+bebida1 = Bebida('Suco de Melancia', 5.0,'grande') #criando item cardápio
+prato1 = Prato('Paozinho',2.00,'O melhor pão da cidade') #criando item cardápio
 restaurante1.adicionar_no_cardapio(bebida1)
 restaurante1.adicionar_no_cardapio(prato1)
 

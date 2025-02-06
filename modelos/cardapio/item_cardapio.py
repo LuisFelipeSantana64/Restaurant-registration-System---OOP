@@ -9,7 +9,7 @@ class ItemCardapio(ABC):
     def preco(self):
         return self.__preco
 
-    @property #getter preço
+    @property #getter nome
     def nome(self): 
         return self.__nome
 
@@ -18,7 +18,7 @@ class ItemCardapio(ABC):
         if isinstance(novo_preco, (int, float)) and novo_preco >= 0:
             self.__preco = novo_preco
         else:
-            raise ValueError("O preço deve ser um número positivo.")
+            raise ValueError("O preço deve ser um número e positivo.")
         
     @nome.setter #setter nome
     def nome(self, novo_nome):
