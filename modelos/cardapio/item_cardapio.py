@@ -17,8 +17,10 @@ class ItemCardapio(ABC):
     def preco(self, novo_preco):
         if isinstance(novo_preco, (int, float)) and novo_preco >= 0:
             self.__preco = novo_preco
-        else:
-            raise ValueError("O preço deve ser um número e positivo.")
+        if isinstance(novo_preco, str):
+            raise TypeError("O preço deve ser um numero.")
+        if novo_preco < 0 :
+            raise ValueError("O preço deve ser positivo")
         
     @nome.setter #setter nome
     def nome(self, novo_nome):
