@@ -2,7 +2,7 @@
 
 <h2>📜 About the Project</h2>
 <p>
-This program was developed using the structural Oriented Object Program, focusing on functions and control flow. The program allows managing a restaurant registry with the following features:
+This program was developed following the Object Oriented Programming (OOP) paradigm, using classes and objects to structure the code. The program allows managing a restaurant registry with the following features:
 <ul>
   <li>Register new restaurants with name and category.</li>
   <li>List registered restaurants, displaying their status (Active/Inactive).</li>
