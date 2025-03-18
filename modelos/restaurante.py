@@ -51,6 +51,11 @@ class Restaurante:
                 print("\nNão houve mudança!!")
     
     def avaliar_restaurante(self, cliente, nota):
+        if not isinstance (nota, (float, int)):
+             raise TypeError("A nota deve  ser um numero")
+        if nota < 0:
+             raise ValueError("A nota deve ser um numero positivo")
+        
         avaliacao = Avaliacao(cliente, nota)
         self.__avaliacao.append(avaliacao)
         
@@ -62,8 +67,9 @@ class Restaurante:
         return round(soma / (len(self.__avaliacao)), 1)
 
     def adicionar_no_cardapio(self, item):
-        if isinstance(item, ItemCardapio):
-            self.__cardapio.append(item)
+        if not isinstance(item, ItemCardapio):  # Se não for um ItemCardapio...
+             raise TypeError("O item deve ser uma instância de ItemCardapio")
+        self.__cardapio.append(item)
         
     @property     
     def exibir_cardapio(self):
