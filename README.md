@@ -2,9 +2,10 @@
 
 <h2>📜 About the Project</h2>
 <p>
-This program was developed following the Object Oriented Programming (OOP) paradigm, using classes and objects to structure the code. The program allows managing a restaurant registry with the following features:
+This program was developed following the Object Oriented Programming (OOP) paradigm, using classes and objects to structure the code. The program allows managing a restaurant registry with the following main features:
 <ul>
-  <li>Register new restaurants with name and category.</li>
+  <li>Register new restaurants with name, category and description.</li>
+   <li>Register new menu item and add it to a restaurant menu.</li>
   <li>List registered restaurants, displaying their status (Active/Inactive).</li>
   <li>Change the status (Active or Inactive) of an already registered restaurant.</li>
 </ul>
@@ -19,13 +20,57 @@ This program was developed following the Object Oriented Programming (OOP) parad
 
 ---
 
+<h1 align="center">Restaurant Manager 🍴</h1>
+
+<h2>📜 About the Project</h2>
+<p>
+This program was developed using the structural programming paradigm, focusing on functions and control flow. The program allows managing a restaurant registry with the following features:
+<ul>
+  <li>Register new restaurants with name and category.</li>
+  <li>List registered restaurants, displaying their status (Active/Inactive).</li>
+  <li>Change the status (Active or Inactive) of an already registered restaurant.</li>
+</ul>
+</p>
+
+---
+
+<h2>🛠 Technologies Used</h2>
+<ul>
+  <li><b>Language:</b> Python 3.x</li>
+  <li><b>Testing Framework:</b> pytest</li>
+</ul>
+
+---
+
 <h2>🚀 Features</h2>
-<ol>
-  <li><b>Restaurant Registration:</b> Add new restaurants with name and category.</li>
-  <li><b>Restaurant Listing:</b> View all registered restaurants, their categories, and status.</li>
-  <li><b>Status Modification:</b> Activate or deactivate registered restaurants.</li>
-  <li><b>Simple Interface:</b> An interactive menu that guides the user through the options.</li>
-</ol>
+<h3>Restaurant Management</h3>
+<ul>
+  <li>Create restaurants with name and category.</li>
+  <li>List all registered restaurants.</li>
+  <li>Change the status of the restaurant (Active/Inactive).</li>
+</ul>
+
+<h3>Evaluation System</h3>
+<ul>
+  <li>Allows customers to rate a restaurant with a score.</li>
+</ul>
+
+<h3>Customized Menu</h3>
+<ul>
+  <li>Add items to the restaurant menu (beverages and dishes).</li>
+  <li>Display the complete menu of a restaurant and its average ratings.</li>
+</ul>
+
+<h3>Menu Items with Specific Characteristics</h3>
+<ul>
+  <li><b>Dish:</b> Has a name, price, and description.</li>
+  <li><b>Beverage:</b> Has a name, price, and size.</li>
+</ul>
+
+<h3>Discount Application</h3>
+<ul>
+  <li>Dishes and beverages can have discounts applied.</li>
+</ul>
 
 ---
 
@@ -38,8 +83,7 @@ This program was developed following the Object Oriented Programming (OOP) parad
 <ol>
   <li>Make sure Python 3 is installed on your system.</li>
   <li>Clone this repository:
-    <pre><code>git clone https://github.com/LuisFelipeSantana64/Restaurant-registration-System---OOP
-</code></pre>
+    <pre><code>git clone https://github.com/LuisFelipeSantana64/Restaurant-registration-System---OOP</code></pre>
   </li>
   <li>Navigate to the project directory:
     <pre><code>cd [PROJECT_DIRECTORY]</code></pre>
@@ -54,3 +98,7 @@ This program was developed following the Object Oriented Programming (OOP) parad
     <pre><code>pytest</code></pre>
   </li>
 </ol>
+
+
+---
+
