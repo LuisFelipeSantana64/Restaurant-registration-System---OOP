@@ -4,29 +4,8 @@
 <p>
 This program was developed following the Object Oriented Programming (OOP) paradigm, using classes and objects to structure the code. The program allows managing a restaurant registry with the following main features:
 <ul>
-  <li>Register new restaurants with name, category and description.</li>
-   <li>Register new menu item and add it to a restaurant menu.</li>
-  <li>List registered restaurants, displaying their status (Active/Inactive).</li>
-  <li>Change the status (Active or Inactive) of an already registered restaurant.</li>
-</ul>
-</p>
-
----
-
-<h2>🛠 Technologies Used</h2>
-<ul>
-  <li><b>Language:</b> Python 3.x</li>
-</ul>
-
----
-
-<h1 align="center">Restaurant Manager 🍴</h1>
-
-<h2>📜 About the Project</h2>
-<p>
-This program was developed using the structural programming paradigm, focusing on functions and control flow. The program allows managing a restaurant registry with the following features:
-<ul>
   <li>Register new restaurants with name and category.</li>
+  <li>Register a new menu item (dish or drink).</li>
   <li>List registered restaurants, displaying their status (Active/Inactive).</li>
   <li>Change the status (Active or Inactive) of an already registered restaurant.</li>
 </ul>
@@ -46,7 +25,7 @@ This program was developed using the structural programming paradigm, focusing o
 <h3>Restaurant Management</h3>
 <ul>
   <li>Create restaurants with name and category.</li>
-  <li>List all registered restaurants.</li>
+  <li>List all registered restaurants and their review.</li>
   <li>Change the status of the restaurant (Active/Inactive).</li>
 </ul>
 
