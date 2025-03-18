@@ -1,52 +1,55 @@
-<h1 align="center">Gerenciador de Restaurantes 🍴</h1>
+<h1 align="center">Restaurant Manager 🍴</h1>
 
-<h2>📜 Sobre o Projeto</h2>
+<h2>📜 About the Project</h2>
 <p>
-Este programa foi desenvolvido usando o paradigma de programação estrutural, focado em funções e controle de fluxo estrutura do programa permite gerenciar um cadastro de restaurantes, permitindo realizar as seguintes ações:
+This program was developed using the structural programming paradigm, focusing on functions and control flow. The program allows managing a restaurant registry with the following features:
 <ul>
-  <li>Cadastrar novos restaurantes com nome e categoria.</li>
-  <li>Listar os restaurantes cadastrados, exibindo seus status (Ativo/Desativado).</li>
-  <li>Alterar o estado (Ativo ou Desativado) de um restaurante já cadastrado.</li>
+  <li>Register new restaurants with name and category.</li>
+  <li>List registered restaurants, displaying their status (Active/Inactive).</li>
+  <li>Change the status (Active or Inactive) of an already registered restaurant.</li>
 </ul>
 </p>
 
 ---
 
-<h2>🛠 Tecnologias Utilizadas</h2>
+<h2>🛠 Technologies Used</h2>
 <ul>
-  <li><b>Linguagem:</b> Python 3.x</li>
+  <li><b>Language:</b> Python 3.x</li>
 </ul>
 
 ---
 
-<h2>🚀 Funcionalidades</h2>
+<h2>🚀 Features</h2>
 <ol>
-  <li><b>Cadastro de Restaurantes:</b> Adicione novos restaurantes com nome e categoria.</li>
-  <li><b>Listagem de Restaurantes:</b> Veja todos os restaurantes cadastrados, suas categorias e status.</li>
-  <li><b>Alteração de Estado:</b> Ative ou desative restaurantes cadastrados.</li>
-  <li><b>Interface Simples:</b> Um menu interativo que guia o usuário pelas opções.</li>
+  <li><b>Restaurant Registration:</b> Add new restaurants with name and category.</li>
+  <li><b>Restaurant Listing:</b> View all registered restaurants, their categories, and status.</li>
+  <li><b>Status Modification:</b> Activate or deactivate registered restaurants.</li>
+  <li><b>Simple Interface:</b> An interactive menu that guides the user through the options.</li>
 </ol>
 
 ---
 
-<h2>👥 Desenvolvedores</h2>
-<p>- <b>Luis Felipe Santana</b> - Desenvolvedor(a) Principal</p>
+<h2>👥 Developers</h2>
+<p>- <b>Luis Felipe Santana</b> - Lead Developer</p>
 
 ---
 
-<h2>📝 Como Executar o Programa</h2>
+<h2>📝 How to Run the Program</h2>
 <ol>
-  <li>Certifique-se de que o Python 3 está instalado no seu sistema.</li>
-  <li>Clone este repositório:
+  <li>Make sure Python 3 is installed on your system.</li>
+  <li>Clone this repository:
     <pre><code>git clone https://github.com/LuisFelipeSantana64/Restaurant-registration-System</code></pre>
   </li>
-  <li>Navegue até o diretório do projeto:
-    <pre><code>cd [NOME_DO_DIRETORIO]</code></pre>
+  <li>Navigate to the project directory:
+    <pre><code>cd [PROJECT_DIRECTORY]</code></pre>
   </li>
-  <li>Execute o programa:
-    <pre><code>python Restaurant-registration-System.py</code></pre>
+  <li>Install dependencies (including pytest for testing):
+    <pre><code>pip install -r requirements.txt</code></pre>
+  </li>
+  <li>Run the application:
+    <pre><code>python app.py</code></pre>
+  </li>
+  <li>Run tests using pytest:
+    <pre><code>pytest</code></pre>
   </li>
 </ol>
-
----
-
