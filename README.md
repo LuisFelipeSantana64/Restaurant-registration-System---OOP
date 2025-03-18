@@ -10,9 +10,7 @@
     <h1 align="center">Restaurant Manager 🍴</h1>
 
     <h2>📜 About the Project</h2>
-    <p>
-        This program was developed using the structural programming paradigm, focusing on functions and flow control. The structure of the program allows managing a restaurant registry, enabling the following actions:
-    </p>
+    <p>This program was developed using the structural programming paradigm, focusing on functions and flow control. The structure of the program allows managing a restaurant registry, enabling the following actions:</p>
     <ul>
         <li>Register new restaurants with name and category.</li>
         <li>List the registered restaurants, displaying their status (Active/Inactive).</li>
@@ -38,7 +36,7 @@
 
     <hr>
 
-    <h2>👥 Developers</h2>
+    <h2>👥 Developer</h2>
     <p>- <b>Luis Felipe Santana</b> - Lead Developer</p>
 
     <hr>
