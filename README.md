@@ -2,7 +2,7 @@
 
 <h2>📜 About the Project</h2>
 <p>
-This program was developed using the structural programming paradigm, focusing on functions and control flow. The program allows managing a restaurant registry with the following features:
+This program was developed using the structural Oriented Object Program, focusing on functions and control flow. The program allows managing a restaurant registry with the following features:
 <ul>
   <li>Register new restaurants with name and category.</li>
   <li>List registered restaurants, displaying their status (Active/Inactive).</li>
@@ -38,7 +38,8 @@ This program was developed using the structural programming paradigm, focusing o
 <ol>
   <li>Make sure Python 3 is installed on your system.</li>
   <li>Clone this repository:
-    <pre><code>git clone https://github.com/LuisFelipeSantana64/Restaurant-registration-System</code></pre>
+    <pre><code>git clone https://github.com/LuisFelipeSantana64/Restaurant-registration-System---OOP
+</code></pre>
   </li>
   <li>Navigate to the project directory:
     <pre><code>cd [PROJECT_DIRECTORY]</code></pre>
