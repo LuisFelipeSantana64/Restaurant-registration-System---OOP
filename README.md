@@ -50,12 +50,6 @@ This program was developed following the Object Oriented Programming (OOP) parad
 <ul>
   <li>Dishes and beverages can have discounts applied.</li>
 </ul>
-
----
-
-<h2>👥 Developers</h2>
-<p>- <b>Luis Felipe Santana</b> - Lead Developer</p>
-
 ---
 
 <h2>📝 How to Run the Program</h2>
