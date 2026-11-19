@@ -1,6 +1,6 @@
-<h1 align="center">Restaurant Manager 🍴</h1>
+<h1 align="center">Restaurant Manager </h1>
 
-<h2>📜 About the Project</h2>
+<h2> About the Project</h2>
 <p>
 This program was developed following the Object Oriented Programming (OOP) paradigm, using classes and objects to structure the code. The program allows managing a restaurant registry with the following main features:
 <ul>
@@ -13,7 +13,7 @@ This program was developed following the Object Oriented Programming (OOP) parad
 
 ---
 
-<h2>🛠 Technologies Used</h2>
+<h2> Technologies Used</h2>
 <ul>
   <li><b>Language:</b> Python 3.x</li>
   <li><b>Testing Framework:</b> pytest</li>
@@ -21,7 +21,7 @@ This program was developed following the Object Oriented Programming (OOP) parad
 
 ---
 
-<h2>🚀 Features</h2>
+<h2> Features</h2>
 <h3>Restaurant Management</h3>
 <ul>
   <li>Create restaurants with name and category.</li>
@@ -52,7 +52,7 @@ This program was developed following the Object Oriented Programming (OOP) parad
 </ul>
 ---
 
-<h2>📝 How to Run the Program</h2>
+<h2> How to Run the Program</h2>
 <ol>
   <li>Make sure Python 3 is installed on your system.</li>
   <li>Clone this repository:
